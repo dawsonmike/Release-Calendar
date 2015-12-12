@@ -1,0 +1,11 @@
+Some git information
+
+We found that when we cloned the master branch onto our workspace
+that when we wanted to push a new branch we needed to do the following to push it back up.
+
+	- git checkout -b <branchname> to switch to the branch
+	- git push --set-upstream origin <branchname>
+
+We may not have done the initial setup right and that is why we ended up having to do it.
+
+Hope this helps!! 
